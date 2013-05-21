@@ -30,3 +30,14 @@ function gsb_feature_diptych_fpp_entity_info_alter(&$entity_info) {
     'custom settings' => TRUE,
   );
 }
+
+/**
+ * Implements template_preprocess_fieldable_panels_pane().
+ */
+function gsb_feature_diptych_fpp_preprocess_fieldable_panels_pane(&$variables) {
+  if ($variables['elements']['#bundle'] == 'diptych') {
+    $wrapper = entity_metadata_wrapper($variables['elements']['#entity_type'], $variables['elements']['#element']);
+    // Set fpp class depending on style field.
+    $variables['classes_array'][] = 'diptych-' . $wrapper->field_diptych_style->value();
+  }
+}
