@@ -24,7 +24,7 @@ function gsb_feature_diptych_fpp_field_default_field_instances() {
           'conditions' => array(),
         ),
         'type' => 'text_default',
-        'weight' => 1,
+        'weight' => 2,
       ),
       'ical' => array(
         'label' => 'above',
@@ -76,7 +76,7 @@ function gsb_feature_diptych_fpp_field_default_field_instances() {
           'conditions' => array(),
         ),
         'type' => 'link_default',
-        'weight' => 5,
+        'weight' => 6,
       ),
       'ical' => array(
         'label' => 'above',
@@ -180,7 +180,7 @@ function gsb_feature_diptych_fpp_field_default_field_instances() {
           'conditions' => array(),
         ),
         'type' => 'text_default',
-        'weight' => 4,
+        'weight' => 5,
       ),
       'ical' => array(
         'label' => 'above',
@@ -233,7 +233,7 @@ function gsb_feature_diptych_fpp_field_default_field_instances() {
           'preview_view_mode' => 'diptych',
         ),
         'type' => 'gsb_field_formatter_responsive_video',
-        'weight' => 3,
+        'weight' => 4,
       ),
       'ical' => array(
         'label' => 'above',
@@ -384,7 +384,7 @@ function gsb_feature_diptych_fpp_field_default_field_instances() {
           'conditions' => array(),
         ),
         'type' => 'link_default',
-        'weight' => 2,
+        'weight' => 3,
       ),
       'ical' => array(
         'label' => 'above',
