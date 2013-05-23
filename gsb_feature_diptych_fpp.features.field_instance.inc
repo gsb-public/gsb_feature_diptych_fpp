@@ -37,7 +37,7 @@ function gsb_feature_diptych_fpp_field_default_field_instances() {
     'entity_type' => 'fieldable_panels_pane',
     'field_name' => 'field_body',
     'label' => 'Left body text',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'linkit' => array(
         'enable' => 0,
@@ -88,8 +88,8 @@ function gsb_feature_diptych_fpp_field_default_field_instances() {
     'ds_extras_field_template' => '',
     'entity_type' => 'fieldable_panels_pane',
     'field_name' => 'field_diptych_right_cta_link',
-    'label' => 'Right CTA Link',
-    'required' => 0,
+    'label' => 'Right CTA link',
+    'required' => 1,
     'settings' => array(
       'attributes' => array(
         'class' => '',
@@ -107,7 +107,7 @@ function gsb_feature_diptych_fpp_field_default_field_instances() {
         'insert_plugin' => '',
       ),
       'rel_remove' => 'default',
-      'title' => 'optional',
+      'title' => 'required',
       'title_maxlength' => 40,
       'title_value' => '',
       'url' => 0,
@@ -129,7 +129,11 @@ function gsb_feature_diptych_fpp_field_default_field_instances() {
   // Exported field_instance: 'fieldable_panels_pane-diptych-field_diptych_style'
   $field_instances['fieldable_panels_pane-diptych-field_diptych_style'] = array(
     'bundle' => 'diptych',
-    'default_value' => NULL,
+    'default_value' => array(
+      0 => array(
+        'value' => 'purple',
+      ),
+    ),
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -245,8 +249,8 @@ function gsb_feature_diptych_fpp_field_default_field_instances() {
     'ds_extras_field_template' => '',
     'entity_type' => 'fieldable_panels_pane',
     'field_name' => 'field_file_single_public',
-    'label' => 'Right Image',
-    'required' => 0,
+    'label' => 'Right image/video',
+    'required' => 1,
     'settings' => array(
       'description_field' => 0,
       'file_directory' => '',
@@ -396,8 +400,8 @@ function gsb_feature_diptych_fpp_field_default_field_instances() {
     'ds_extras_field_template' => '',
     'entity_type' => 'fieldable_panels_pane',
     'field_name' => 'field_link_single',
-    'label' => 'Left CTA Link',
-    'required' => 0,
+    'label' => 'Left CTA link',
+    'required' => 1,
     'settings' => array(
       'attributes' => array(
         'class' => '',
@@ -415,7 +419,7 @@ function gsb_feature_diptych_fpp_field_default_field_instances() {
         'insert_plugin' => '',
       ),
       'rel_remove' => 'default',
-      'title' => 'optional',
+      'title' => 'required',
       'title_maxlength' => 40,
       'title_value' => '',
       'url' => 0,
@@ -436,12 +440,12 @@ function gsb_feature_diptych_fpp_field_default_field_instances() {
 
   // Translatables
   // Included for use with string extractors like potx.
-  t('Left CTA Link');
+  t('Left CTA link');
   t('Left body text');
   t('Left image');
-  t('Right CTA Link');
-  t('Right Image');
+  t('Right CTA link');
   t('Right body text');
+  t('Right image/video');
   t('Style');
 
   return $field_instances;
