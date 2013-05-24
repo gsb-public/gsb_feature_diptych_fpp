@@ -226,7 +226,7 @@ function gsb_feature_diptych_fpp_field_default_field_instances() {
   $field_instances['fieldable_panels_pane-diptych-field_file_single_public'] = array(
     'bundle' => 'diptych',
     'deleted' => 0,
-    'description' => '',
+    'description' => 'Recommended size for uploaded images is 600x440.',
     'display' => array(
       'default' => array(
         'label' => 'hidden',
@@ -300,7 +300,7 @@ function gsb_feature_diptych_fpp_field_default_field_instances() {
   $field_instances['fieldable_panels_pane-diptych-field_image_single_public'] = array(
     'bundle' => 'diptych',
     'deleted' => 0,
-    'description' => '',
+    'description' => 'Recommended size for uploaded images is 600x440.',
     'display' => array(
       'default' => array(
         'label' => 'hidden',
@@ -443,6 +443,7 @@ function gsb_feature_diptych_fpp_field_default_field_instances() {
   t('Left CTA link');
   t('Left body text');
   t('Left image');
+  t('Recommended size for uploaded images is 600x440.');
   t('Right CTA link');
   t('Right body text');
   t('Right image/video');
