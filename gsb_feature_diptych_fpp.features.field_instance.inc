@@ -304,13 +304,13 @@ function gsb_feature_diptych_fpp_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'hidden',
-        'module' => 'image',
+        'module' => 'gsb_field_formatter',
         'settings' => array(
           'conditions' => array(),
           'image_link' => '',
           'image_style' => '600x440',
         ),
-        'type' => 'image',
+        'type' => 'gsb_field_formatter_image',
         'weight' => 0,
       ),
       'ical' => array(
