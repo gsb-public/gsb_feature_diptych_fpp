@@ -1,7 +1,6 @@
 name = GSB Feature Diptych FPP
 core = 7.x
 package = GSB
-php = 5.2.4
 version = 7.x-1.0
 project = gsb_feature_diptych_fpp
 dependencies[] = ctools
@@ -19,7 +18,7 @@ datestamp = 1371136713
 features[ctools][] = ds:ds:1
 features[ctools][] = field_group:field_group:1
 features[ds_layout_settings][] = fieldable_panels_pane|diptych|default
-features[features_api][] = api:1
+features[features_api][] = api:2
 features[field_group][] = group_diptych_txt_block2|fieldable_panels_pane|diptych|default
 features[field_group][] = group_diptych_txt_block|fieldable_panels_pane|diptych|default
 features[field_instance][] = fieldable_panels_pane-diptych-field_body
