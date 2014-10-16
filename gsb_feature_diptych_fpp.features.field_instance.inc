@@ -49,6 +49,8 @@ function gsb_feature_diptych_fpp_field_default_field_instances() {
     'label' => 'Left body text',
     'required' => 1,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'linkit' => array(
         'enable' => 0,
         'insert_plugin' => '',
@@ -118,6 +120,8 @@ function gsb_feature_diptych_fpp_field_default_field_instances() {
         'target' => 'user',
         'title' => '',
       ),
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'display' => array(
         'url_cutoff' => 80,
       ),
@@ -128,6 +132,7 @@ function gsb_feature_diptych_fpp_field_default_field_instances() {
       ),
       'rel_remove' => 'default',
       'title' => 'required',
+      'title_label_use_field_label' => FALSE,
       'title_maxlength' => 40,
       'title_value' => '',
       'url' => 0,
@@ -176,6 +181,8 @@ function gsb_feature_diptych_fpp_field_default_field_instances() {
     'label' => 'Style',
     'required' => 1,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'user_register_form' => FALSE,
     ),
     'widget' => array(
@@ -229,6 +236,8 @@ function gsb_feature_diptych_fpp_field_default_field_instances() {
     'label' => 'Right body text',
     'required' => 1,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'linkit' => array(
         'enable' => 0,
         'insert_plugin' => '',
@@ -292,6 +301,8 @@ function gsb_feature_diptych_fpp_field_default_field_instances() {
     'label' => 'Right image/video',
     'required' => 1,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'description_field' => 0,
       'file_directory' => '',
       'file_extensions' => 'png gif jpg jpeg',
@@ -377,6 +388,8 @@ function gsb_feature_diptych_fpp_field_default_field_instances() {
     'required' => 1,
     'settings' => array(
       'alt_field' => 0,
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'default_image' => 0,
       'file_directory' => '',
       'file_extensions' => 'png gif jpg jpeg',
@@ -388,7 +401,7 @@ function gsb_feature_diptych_fpp_field_default_field_instances() {
     ),
     'widget' => array(
       'active' => 1,
-      'module' => 'media',
+      'module' => 'image',
       'settings' => array(
         'allowed_schemes' => array(
           'private' => 'private',
@@ -416,9 +429,10 @@ function gsb_feature_diptych_fpp_field_default_field_instances() {
           'youtube' => 0,
         ),
         'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
+        'preview_image_style' => 'thumbnail',
         'progress_indicator' => 'throbber',
       ),
-      'type' => 'media_generic',
+      'type' => 'image_image',
       'weight' => -10,
     ),
     'workbench_access_field' => 0,
@@ -470,6 +484,8 @@ function gsb_feature_diptych_fpp_field_default_field_instances() {
         'target' => 'user',
         'title' => '',
       ),
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'display' => array(
         'url_cutoff' => 80,
       ),
@@ -480,6 +496,7 @@ function gsb_feature_diptych_fpp_field_default_field_instances() {
       ),
       'rel_remove' => 'default',
       'title' => 'required',
+      'title_label_use_field_label' => FALSE,
       'title_maxlength' => 40,
       'title_value' => '',
       'url' => 0,
