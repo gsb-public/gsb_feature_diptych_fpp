@@ -22,16 +22,6 @@ function gsb_feature_diptych_fpp_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(
           'conditions' => array(),
-          'custom_link_to_entity' => '',
-          'custom_prefix' => '',
-          'custom_reverse' => '',
-          'custom_strip_preserve' => '',
-          'custom_strip_tags' => '',
-          'custom_strtolower' => '',
-          'custom_strtoupper' => '',
-          'custom_suffix' => '',
-          'custom_trim' => '',
-          'custom_ucfirst' => '',
         ),
         'type' => 'text_default',
         'weight' => 2,
@@ -74,7 +64,8 @@ function gsb_feature_diptych_fpp_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'fieldable_panels_pane-diptych-field_diptych_right_cta_link'
+  // Exported field_instance:
+  // 'fieldable_panels_pane-diptych-field_diptych_right_cta_link'
   $field_instances['fieldable_panels_pane-diptych-field_diptych_right_cta_link'] = array(
     'bundle' => 'diptych',
     'default_value' => NULL,
@@ -86,16 +77,6 @@ function gsb_feature_diptych_fpp_field_default_field_instances() {
         'module' => 'link',
         'settings' => array(
           'conditions' => array(),
-          'custom_link_to_entity' => '',
-          'custom_prefix' => '',
-          'custom_reverse' => '',
-          'custom_strip_preserve' => '',
-          'custom_strip_tags' => '',
-          'custom_strtolower' => '',
-          'custom_strtoupper' => '',
-          'custom_suffix' => '',
-          'custom_trim' => '',
-          'custom_ucfirst' => '',
         ),
         'type' => 'link_default',
         'weight' => 6,
@@ -113,6 +94,7 @@ function gsb_feature_diptych_fpp_field_default_field_instances() {
     'label' => 'Right CTA link',
     'required' => 1,
     'settings' => array(
+      'absolute_url' => 1,
       'attributes' => array(
         'class' => '',
         'configurable_title' => 0,
@@ -151,7 +133,8 @@ function gsb_feature_diptych_fpp_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'fieldable_panels_pane-diptych-field_diptych_style'
+  // Exported field_instance:
+  // 'fieldable_panels_pane-diptych-field_diptych_style'
   $field_instances['fieldable_panels_pane-diptych-field_diptych_style'] = array(
     'bundle' => 'diptych',
     'default_value' => array(
@@ -197,7 +180,8 @@ function gsb_feature_diptych_fpp_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'fieldable_panels_pane-diptych-field_editorial_summary'
+  // Exported field_instance:
+  // 'fieldable_panels_pane-diptych-field_editorial_summary'
   $field_instances['fieldable_panels_pane-diptych-field_editorial_summary'] = array(
     'bundle' => 'diptych',
     'default_value' => NULL,
@@ -209,16 +193,6 @@ function gsb_feature_diptych_fpp_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(
           'conditions' => array(),
-          'custom_link_to_entity' => '',
-          'custom_prefix' => '',
-          'custom_reverse' => '',
-          'custom_strip_preserve' => '',
-          'custom_strip_tags' => '',
-          'custom_strtolower' => '',
-          'custom_strtoupper' => '',
-          'custom_suffix' => '',
-          'custom_trim' => '',
-          'custom_ucfirst' => '',
         ),
         'type' => 'text_default',
         'weight' => 5,
@@ -261,7 +235,8 @@ function gsb_feature_diptych_fpp_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'fieldable_panels_pane-diptych-field_file_single_public'
+  // Exported field_instance:
+  // 'fieldable_panels_pane-diptych-field_file_single_public'
   $field_instances['fieldable_panels_pane-diptych-field_file_single_public'] = array(
     'bundle' => 'diptych',
     'deleted' => 0,
@@ -272,18 +247,7 @@ function gsb_feature_diptych_fpp_field_default_field_instances() {
         'module' => 'gsb_field_formatter',
         'settings' => array(
           'conditions' => array(),
-          'custom_link_to_entity' => '',
-          'custom_prefix' => '',
-          'custom_reverse' => '',
-          'custom_strip_preserve' => '',
-          'custom_strip_tags' => '',
-          'custom_strtolower' => '',
-          'custom_strtoupper' => '',
-          'custom_suffix' => '',
-          'custom_trim' => '',
-          'custom_ucfirst' => '',
           'file_view_mode' => 'diptych',
-          'preview_view_mode' => 'diptych',
         ),
         'type' => 'gsb_field_formatter_image_or_video_popup',
         'weight' => 4,
@@ -347,7 +311,8 @@ function gsb_feature_diptych_fpp_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'fieldable_panels_pane-diptych-field_image_single_public'
+  // Exported field_instance:
+  // 'fieldable_panels_pane-diptych-field_image_single_public'
   $field_instances['fieldable_panels_pane-diptych-field_image_single_public'] = array(
     'bundle' => 'diptych',
     'deleted' => 0,
@@ -358,16 +323,6 @@ function gsb_feature_diptych_fpp_field_default_field_instances() {
         'module' => 'gsb_field_formatter',
         'settings' => array(
           'conditions' => array(),
-          'custom_link_to_entity' => '',
-          'custom_prefix' => '',
-          'custom_reverse' => '',
-          'custom_strip_preserve' => '',
-          'custom_strip_tags' => '',
-          'custom_strtolower' => '',
-          'custom_strtoupper' => '',
-          'custom_suffix' => '',
-          'custom_trim' => '',
-          'custom_ucfirst' => '',
           'image_link' => '',
           'image_style' => '600x440',
         ),
@@ -450,16 +405,6 @@ function gsb_feature_diptych_fpp_field_default_field_instances() {
         'module' => 'link',
         'settings' => array(
           'conditions' => array(),
-          'custom_link_to_entity' => '',
-          'custom_prefix' => '',
-          'custom_reverse' => '',
-          'custom_strip_preserve' => '',
-          'custom_strip_tags' => '',
-          'custom_strtolower' => '',
-          'custom_strtoupper' => '',
-          'custom_suffix' => '',
-          'custom_trim' => '',
-          'custom_ucfirst' => '',
         ),
         'type' => 'link_default',
         'weight' => 3,
@@ -477,6 +422,7 @@ function gsb_feature_diptych_fpp_field_default_field_instances() {
     'label' => 'Left CTA link',
     'required' => 1,
     'settings' => array(
+      'absolute_url' => 1,
       'attributes' => array(
         'class' => '',
         'configurable_title' => 0,

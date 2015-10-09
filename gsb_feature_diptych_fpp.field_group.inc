@@ -30,6 +30,7 @@ function gsb_feature_diptych_fpp_field_group_info() {
     'format_settings' => array(
       'label' => 'diptych-txt-block',
       'instance_settings' => array(
+        'id' => '',
         'classes' => 'diptych-txt-block',
         'description' => '',
         'show_label' => '0',
@@ -62,7 +63,8 @@ function gsb_feature_diptych_fpp_field_group_info() {
     'format_settings' => array(
       'label' => 'diptych-txt-block',
       'instance_settings' => array(
-        'classes' => 'diptych-txt-block',
+        'id' => '',
+        'classes' => 'group-diptych-txt-block',
         'description' => '',
         'show_label' => '0',
         'label_element' => 'h2',
