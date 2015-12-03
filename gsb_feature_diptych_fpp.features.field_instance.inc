@@ -10,7 +10,7 @@
 function gsb_feature_diptych_fpp_field_default_field_instances() {
   $field_instances = array();
 
-  // Exported field_instance: 'fieldable_panels_pane-diptych-field_body'
+  // Exported field_instance: 'fieldable_panels_pane-diptych-field_body'.
   $field_instances['fieldable_panels_pane-diptych-field_body'] = array(
     'bundle' => 'diptych',
     'default_value' => NULL,
@@ -65,7 +65,7 @@ function gsb_feature_diptych_fpp_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'fieldable_panels_pane-diptych-field_diptych_right_cta_link'
+  // 'fieldable_panels_pane-diptych-field_diptych_right_cta_link'.
   $field_instances['fieldable_panels_pane-diptych-field_diptych_right_cta_link'] = array(
     'bundle' => 'diptych',
     'default_value' => NULL,
@@ -134,7 +134,7 @@ function gsb_feature_diptych_fpp_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'fieldable_panels_pane-diptych-field_diptych_style'
+  // 'fieldable_panels_pane-diptych-field_diptych_style'.
   $field_instances['fieldable_panels_pane-diptych-field_diptych_style'] = array(
     'bundle' => 'diptych',
     'default_value' => array(
@@ -181,7 +181,7 @@ function gsb_feature_diptych_fpp_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'fieldable_panels_pane-diptych-field_editorial_summary'
+  // 'fieldable_panels_pane-diptych-field_editorial_summary'.
   $field_instances['fieldable_panels_pane-diptych-field_editorial_summary'] = array(
     'bundle' => 'diptych',
     'default_value' => NULL,
@@ -236,7 +236,7 @@ function gsb_feature_diptych_fpp_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'fieldable_panels_pane-diptych-field_file_single_public'
+  // 'fieldable_panels_pane-diptych-field_file_single_public'.
   $field_instances['fieldable_panels_pane-diptych-field_file_single_public'] = array(
     'bundle' => 'diptych',
     'deleted' => 0,
@@ -312,7 +312,7 @@ function gsb_feature_diptych_fpp_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'fieldable_panels_pane-diptych-field_image_single_public'
+  // 'fieldable_panels_pane-diptych-field_image_single_public'.
   $field_instances['fieldable_panels_pane-diptych-field_image_single_public'] = array(
     'bundle' => 'diptych',
     'deleted' => 0,
@@ -320,13 +320,13 @@ function gsb_feature_diptych_fpp_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'hidden',
-        'module' => 'gsb_field_formatter',
+        'module' => 'image_link_formatter',
         'settings' => array(
           'conditions' => array(),
-          'image_link' => '',
+          'image_link' => 'field_link_single',
           'image_style' => '600x440',
         ),
-        'type' => 'gsb_field_formatter_image',
+        'type' => 'image_link_formatter',
         'weight' => 0,
       ),
       'ical' => array(
@@ -393,7 +393,7 @@ function gsb_feature_diptych_fpp_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'fieldable_panels_pane-diptych-field_link_single'
+  // Exported field_instance: 'fieldable_panels_pane-diptych-field_link_single'.
   $field_instances['fieldable_panels_pane-diptych-field_link_single'] = array(
     'bundle' => 'diptych',
     'default_value' => NULL,

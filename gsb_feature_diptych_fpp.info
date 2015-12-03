@@ -10,6 +10,7 @@ dependencies[] = field_group
 dependencies[] = gsb_feature_base_fields
 dependencies[] = gsb_field_formatter
 dependencies[] = image
+dependencies[] = image_link_formatter
 dependencies[] = link
 dependencies[] = media
 dependencies[] = options
